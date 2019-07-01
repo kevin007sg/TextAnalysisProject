@@ -32,3 +32,7 @@ group :development do
   gem 'hub', :require=>nil
   gem 'rails_layout'
 end
+
+group :production do
+  gem 'pg'
+end
